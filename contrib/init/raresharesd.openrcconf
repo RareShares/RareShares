@@ -1,0 +1,33 @@
+# /etc/conf.d/raresharesd: config file for /etc/init.d/raresharesd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/raresharescore/rareshares.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/raresharesd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/raresharesd.pid"
+
+# Where to write raresharesd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/raresharesd"
+
+# User and group to own raresharesd process
+#BITCOIND_USER="raresharescore"
+#BITCOIND_GROUP="raresharescore"
+
+# Path to raresharesd executable
+#BITCOIND_BIN="/usr/bin/raresharesd"
+
+# Nice value to run raresharesd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

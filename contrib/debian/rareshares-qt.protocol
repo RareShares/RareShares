@@ -1,0 +1,11 @@
+[Protocol]
+exec=rareshares-qt '%u'
+protocol=rareshares
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

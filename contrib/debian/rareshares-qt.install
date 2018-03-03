@@ -1,0 +1,6 @@
+usr/local/bin/rareshares-qt usr/bin
+share/pixmaps/rareshares32.xpm usr/share/pixmaps
+share/pixmaps/rareshares16.xpm usr/share/pixmaps
+share/pixmaps/rareshares128.png usr/share/pixmaps
+debian/rareshares-qt.desktop usr/share/applications
+debian/rareshares-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/rareshares_bg.qm</file>
+        <file alias="de">locale/rareshares_de.qm</file>
+        <file alias="en">locale/rareshares_en.qm</file>
+        <file alias="es">locale/rareshares_es.qm</file>
+        <file alias="fi">locale/rareshares_fi.qm</file>
+        <file alias="fr">locale/rareshares_fr.qm</file>
+        <file alias="it">locale/rareshares_it.qm</file>
+        <file alias="ja">locale/rareshares_ja.qm</file>
+        <file alias="pl">locale/rareshares_pl.qm</file>
+        <file alias="pt">locale/rareshares_pt.qm</file>
+        <file alias="ru">locale/rareshares_ru.qm</file>
+        <file alias="sk">locale/rareshares_sk.qm</file>
+        <file alias="sv">locale/rareshares_sv.qm</file>
+        <file alias="vi">locale/rareshares_vi.qm</file>
+        <file alias="zh_CN">locale/rareshares_zh_CN.qm</file>
+        <file alias="zh_TW">locale/rareshares_zh_TW.qm</file>
+    </qresource>
+</RCC>
